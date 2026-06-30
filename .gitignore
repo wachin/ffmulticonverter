@@ -13,4 +13,12 @@ dist/
 .mypy_cache/
 .coverage
 htmlcov/
+.pybuild/
 
+# Debian package build artifacts
+debian/.debhelper/
+debian/debhelper-build-stamp
+debian/files
+debian/*.debhelper
+debian/*.substvars
+debian/ffmulticonverter/
