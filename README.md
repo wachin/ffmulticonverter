@@ -25,13 +25,28 @@ Windows document conversion:
 
 ## Run from source
 
-Linux:
+Clone or download:
+
+[https://github.com/wachin/ffmulticonverter](https://github.com/wachin/ffmulticonverter)
+
+### Linux:
+
+On Debian-based distributions such as Debian, Ubuntu, and Linux Mint, install
+the required runtime dependencies with:
+
+```sh
+sudo apt install python3-pyqt5 ffmpeg unoconv imagemagick
+```
+
+Then run from a terminal in the root folder:
 
 ```sh
 python3 -m ffmulticonverter.ffmulticonverter
 ```
 
-Windows:
+### Windows:
+
+Open PowerShell
 
 ```powershell
 python -m pip install -r requirements.txt
