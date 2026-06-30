@@ -1,7 +1,6 @@
 # FF Multi Converter
 
-FF Multi Converter is a graphical application for converting audio, video,
-image and document files by combining external tools.
+FF Multi Converter is a modern, cross-platform graphical application for converting audio, video, image, and document files between many popular formats. It uses FFmpeg, ImageMagick, LibreOffice, powerful open-source tools behind the scenes, while providing a simple and user-friendly interface for Linux and Windows users.
 
 This repository keeps one upstream codebase with Linux and Windows support.
 The Debian packaging remains Linux-focused in `debian/`.
