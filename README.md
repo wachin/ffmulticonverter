@@ -18,6 +18,12 @@ Linux document conversion:
 
 - unoconv
 
+Debian-based runtime packages:
+
+```sh
+sudo apt install python3 python3-pyqt5 ffmpeg imagemagick unoconv
+```
+
 Windows document conversion:
 
 - LibreOffice, available as `soffice.com` or `soffice` in `PATH`
@@ -34,7 +40,7 @@ On Debian-based distributions such as Debian, Ubuntu, and Linux Mint, install
 the required runtime dependencies with:
 
 ```sh
-sudo apt install python3-pyqt5 ffmpeg unoconv imagemagick
+sudo apt install python3 python3-pyqt5 ffmpeg imagemagick unoconv
 ```
 
 Then run from a terminal in the root folder:
@@ -151,6 +157,19 @@ python -m ffmulticonverter.ffmulticonverter
 The `debian/` directory is intentionally Linux-focused. It depends on the Linux
 runtime tools used by the Debian package and does not install Windows binaries
 or Windows-specific dependencies.
+
+To build the `.deb` package on Debian-based distributions, install the package
+build dependencies with:
+
+```sh
+sudo apt install build-essential debhelper dh-python python3 python3-setuptools
+```
+
+Then build the package from the repository root with:
+
+```sh
+dpkg-buildpackage -us -uc
+```
 
 ## Platform notes
 

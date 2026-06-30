@@ -5,7 +5,10 @@ Maintainer: coolshou <marillat@deb-multimedia.org>
 Bugs: https://github.com/coolshou/ffmulticonverter/issues
 Homepage: https://github.com/coolshou/ffmulticonverter.git
 Standards-Version: 4.5.0
-Build-Depends: python3
+Build-Depends: debhelper (>= 12),
+ dh-python,
+ python3,
+ python3-setuptools
 
 Package: ffmulticonverter
 Architecture: all
