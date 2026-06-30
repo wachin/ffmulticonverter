@@ -55,9 +55,9 @@ testing the commands.
 
 FFmpeg is required for audio and video conversion.
 
-Download a Windows build from the official FFmpeg Windows download page:
+Download a Windows build from the official FFmpeg Windows download page:  
 [https://ffmpeg.org/download.html#build-windows](https://ffmpeg.org/download.html#build-windows).
-The guide in this repository uses the builds from
+The guide in this repository uses the builds from  
 [gyan.dev](https://www.gyan.dev/ffmpeg/builds/).
 
 Summary:
@@ -76,8 +76,8 @@ C:\FFmpeg\bin
 ffmpeg -version
 ```
 
-Full guide: [docs/windows/EN/ffmpeg.md](docs/windows/EN/ffmpeg.md)
-Full Spanish guide: [docs/windows/ES/ffmpeg.md](docs/windows/ES/ffmpeg.md).
+Full guide: [docs/windows/EN/ffmpeg.md](docs/windows/EN/ffmpeg.md)  
+Full Spanish guide: [docs/windows/ES/ffmpeg.md](docs/windows/ES/ffmpeg.md).  
 
 #### LibreOffice in PATH
 
@@ -85,7 +85,7 @@ LibreOffice is required for document conversion on Windows. FF Multi Converter
 uses `soffice`/`soffice.com` in headless mode to convert documents such as
 `.docx` to `.odt`, `.pdf`, and other office formats.
 
-Download LibreOffice from:
+Download LibreOffice from:  
 [https://libreoffice.org/](https://libreoffice.org/).
 
 Summary:
@@ -104,8 +104,8 @@ C:\Program Files\LibreOffice\program
 soffice --version
 ```
 
-Full guide: [docs/windows/EN/libreoffice-path.md](docs/windows/EN/libreoffice-path.md)
-Full Spanish guide: [docs/windows/ES/libreoffice-path.md](docs/windows/ES/libreoffice-path.md).
+Full guide: [docs/windows/EN/libreoffice-path.md](docs/windows/EN/libreoffice-path.md)  
+Full Spanish guide: [docs/windows/ES/libreoffice-path.md](docs/windows/ES/libreoffice-path.md).  
 
 #### ImageMagick in PATH
 
@@ -113,7 +113,7 @@ ImageMagick is required for image conversion. On Windows, FF Multi Converter
 uses `magick`, not `convert`, because Windows already includes an unrelated
 `convert.exe`.
 
-Download ImageMagick from:
+Download ImageMagick from:  
 [https://imagemagick.org/download/#gsc.tab=0](https://imagemagick.org/download/#gsc.tab=0).
 
 Summary:
@@ -128,8 +128,8 @@ Summary:
 magick --version
 ```
 
-Full guide: [docs/windows/EN/imagemagick.md](docs/windows/EN/imagemagick.md)
-Full Spanish guide: [docs/windows/ES/imagemagick.md](docs/windows/ES/imagemagick.md).
+Full guide: [docs/windows/EN/imagemagick.md](docs/windows/EN/imagemagick.md)  
+Full Spanish guide: [docs/windows/ES/imagemagick.md](docs/windows/ES/imagemagick.md).  
 
 When all three tools are ready, these commands should work from a new
 PowerShell:
