@@ -1,0 +1,23 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local test/build output
+build/
+dist/
+*.egg-info/
+
+# Logs and local runtime files
+*.log
+
+# Windows / editor files
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/

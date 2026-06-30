@@ -1,0 +1,62 @@
+Metadata-Version: 1.1
+Name: ffmulticonverter
+Version: 1.8.1
+Summary: 
+GUI File Format Converter
+
+Home-page: https://sites.google.com/site/ffmulticonverter/
+Author: Ilias Stamatis
+Author-email: stamatis.iliass@gmail.com
+License: GNU GPL3
+Download-URL: https://sourceforge.net/projects/ffmulticonv/files/
+Description: 
+        FF Multi Converter
+        -------------------
+        
+        Graphical application which enables you to convert audio, video, image and
+        document files between all popular formats using ffmpeg, unoconv, and ImageMagick.
+        
+        Features:
+         - Conversions for several file formats.
+         - Very easy to use interface.
+         - Access to common conversion options.
+         - Audio/video ffmpeg-presets management.
+         - Options for saving and naming files.
+         - Multilingual - over 20 languages.
+        
+        Requires: python3, pyqt5
+        Optionally requires: ffmpeg, imagemagick, unoconv
+        
+Keywords: convert,file format,extension,audio,video,images,documents,ffmpeg,imagemagick,unoconv
+Platform: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: X11 Applications :: Qt
+Classifier: Natural Language :: English
+Classifier: Natural Language :: Bulgarian
+Classifier: Natural Language :: Catalan
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Natural Language :: Czech
+Classifier: Natural Language :: French
+Classifier: Natural Language :: Italian
+Classifier: Natural Language :: Galician
+Classifier: Natural Language :: German
+Classifier: Natural Language :: Greek
+Classifier: Natural Language :: Hungarian
+Classifier: Natural Language :: Malay
+Classifier: Natural Language :: Polish
+Classifier: Natural Language :: Portuguese
+Classifier: Natural Language :: Portuguese (Brazilian)
+Classifier: Natural Language :: Romanian
+Classifier: Natural Language :: Russian
+Classifier: Natural Language :: Spanish
+Classifier: Natural Language :: Turkish
+Classifier: Natural Language :: Vietnamese
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Multimedia :: Video :: Conversion
+Classifier: Topic :: Multimedia :: Sound/Audio :: Conversion
+Classifier: Topic :: Utilities

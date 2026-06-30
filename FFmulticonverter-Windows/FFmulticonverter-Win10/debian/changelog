@@ -1,0 +1,13 @@
+ffmulticonverter (1.8.1-20240122) unstable; urgency=medium
+
+  * fix progress bar
+
+ -- coolshou <coolshou2060@gmail.com>  Tue, 19 Jul 2022 08:35:19 +0800
+
+ffmulticonverter (1.8.0-1) unstable; urgency=medium
+
+  * Build with python 3.8
+
+ -- coolshou <coolshou2060@gmail.com>  Thu, 05 Mar 2020 17:54:31 +0100
+
+

@@ -1,0 +1,20 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@ -Spybuild
+
+override_dh_auto_build:
+	python3 setup.py build
+
+override_dh_auto_install:
+	python3 setup.py install \
+	--skip-build \
+	--root=$(CURDIR)/debian/ffmulticonverter \
+	--install-layout=deb
+
+	rm -rf debian/ffmulticonverter/usr/lib/python3/dist-packages/ffmulticonverter/__pycache__
+
+override_dh_auto_clean:
+	rm -rf build ffmulticonverter/__pycache__
+
+	dh_auto_clean

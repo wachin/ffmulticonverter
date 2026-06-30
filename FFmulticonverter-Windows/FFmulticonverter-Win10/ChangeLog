@@ -1,0 +1,213 @@
+Version 1.8.0
+--------------
+
+* PyQt5 port
+
+* User can now specify a custom ffmpeg path.
+
+* Libav/avconv support dropped.
+
+* Progress bar showing total conversions progress removed.
+
+* Document tab now allows all conversions supported by unoconv.
+
+* Shutdown after conversion button added.
+
+Version 1.7.2
+--------------
+
+* Minor fixes and changes.
+
+* Updated translations.
+
+Version 1.7.1
+--------------
+
+* Compatibility bug with pyqt 4.11.4 has been fixed.
+
+* Compatibility bug with python 3.2 and previous versions has been fixed.
+
+* New Image Preferences: default convert options and extra image formats.
+
+Version 1.7.0
+--------------
+
+* Updated graphical user interface.
+
+* Audio and video codecs selection.
+
+* Rotate and flip video options.
+
+* Split video files option.
+
+* Embed subtitles to video files.
+
+* Number of threads to use option for video conversions.
+
+* Autocrop, rotate and flip images.
+
+* Parallel document conversions.
+
+* Various small bugfixes.
+
+* Catalan, Galician and Romanian translations.
+
+Version 1.6.0
+--------------
+
+* The program ported to python3
+
+* PythonMagick replaced by ImageMagick.
+
+* Small corrections and changes in the presets list.
+
+* Italian, Spanish, Chinese (Taiwan) and Malay translations.
+
+Version 1.5.2
+--------------
+
+* Updated presets list.
+
+* New presets options: synchronization and remove old.
+
+* New option to maintain or not aspect ratio when resizing an image.
+
+* Bugfix #20: really use avconv when chosen.
+
+* French and Bulgarian translations.
+
+Version 1.5.1
+--------------
+
+* Audio conversions major bugfix #12.
+
+* Other bugfixes.
+
+* Updated translations.
+
+Version 1.5.0
+--------------
+
+* New UI which enables user to select multiple files for conversion.
+
+* Files can dragged and dropped from a file manager or passed as command line arguments.
+
+* Parallel conversions.
+
+* Portuguese (Brazil) translation.
+
+* Minor bugfixes.
+
+Version 1.4.3
+--------------
+
+* Czech translation and minor changes.
+
+Version 1.4.2
+--------------
+
+* FFmpeg compatibility bugfix - accurate progress bar for all ffmpeg versions.
+
+* Polish and Portuguese translations.
+
+Version 1.4.1
+--------------
+
+* Chinese, German, Hungarian and Russian translations.
+
+Version 1.4.0
+--------------
+
+* Audio/Video ffmpeg-presets management. The presets are compatible with those of WinFF.
+
+* In-line processing of the ffmpeg command in audio/video conversions.
+
+* More precise and reliable results in the conversion progress bars.
+
+* FFmpeg/avconv/unoconv output is visible in the conversion dialog.
+
+* Choose between ffmpeg/avconv for audio/video conversion if both are installed.
+
+* The two tabs for audio and video replaced by one.
+
+* Conversions log file.
+
+Version 1.3.1
+--------------
+
+* Audio conversion options has been added on video conversions.
+
+* Bug fix on application icon.
+
+* Manual page was added.
+
+Version 1.3.0
+--------------
+
+* Again great part has been rewriteen.
+  The program became more object-oriented.
+  Conversions are running in a second thread.
+
+* PIL has been replaced from PythonMagick.
+
+* Extra file extensions:
+    Audio:  afc, aifc, mka, ra, spx
+    Videos: m1v, m2t, m2v, mpg, ogv, rm, ts
+    Images: aai, cgm, dcm, dpx, emf, fpx, jbig, jng,
+            mrsid, p7, picon, psd, rad, webp, wpg, xpm
+
+* Common conversion options for each file type has been added.
+
+* Automatic file extension recognition.
+
+* Options for existing files.
+
+* Progress dialog's modality issue solved.
+
+* Turkish translation.
+
+Version 1.2.0
+--------------
+
+* Great part of the program has been rewritten.
+  The ui fully written by hand. No more use of QtDesigner.
+
+* Output destination added.
+
+* Preferences tab added.
+  New options for saving and naming files.
+
+* New bar added to progress dialog.
+  The new bar shows the progress of each file seperately.
+
+Version 1.1.1
+--------------
+
+* Bug with conversion dialog has been fixed.
+  Before this, dialog appeared after the first conversion.
+
+* Compatibility bug with python2.6 has been fixed.
+
+* Small corrections to some labels and greek translation.
+
+Version 1.1.0
+--------------
+
+* Some part of the program has been rewritten.
+
+* The application translated to english which became the primary language.
+
+* Greek translation available.
+
+* User interface changed.
+  The three main ComboBoxes replaced by a tabWidget for each file type.
+
+* The dialog to inform for missing dependencies when program starts replaced
+  from a label on statusbar.
+
+* PIL added to dependencies.
+
+Version 1.0.0
+--------------
+
+* First public release.
