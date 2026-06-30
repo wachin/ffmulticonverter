@@ -1,6 +1,12 @@
+
 # FF Multi Converter (esta versión) en Windows 10
 
-Este proyecto fue preparado originalmente para Linux.
+FF Multi Converter es una aplicacion grafica para convertir archivos de audio, video, imagenes y documentos usando herramientas externas:
+
+Este proyecto fue preparado originalmente para Linux. 
+
+Esta carpeta contiene una version de **FF Multi Converter 1.8.1** adaptada para funcionar en Windows.
+
 Esta variante añade compatibilidad para **Windows 10** usando:
 
 - **FFmpeg** (audio/video)
@@ -182,3 +188,34 @@ En Windows la configuración se guarda en:
 ```
 
 (igual que en Linux, pero dentro de tu carpeta de usuario).
+
+## 6) Notas del port para Windows
+
+Este proyecto fue escrito originalmente para Linux y esperaba herramientas como `ffmpeg`, `unoconv` e ImageMagick con el comando `convert` en un entorno tipo Unix.
+
+Pagina historica del proyecto original:
+
+[https://sites.google.com/site/ffmulticonverter/](https://sites.google.com/site/ffmulticonverter/)
+
+Esta variante mantiene la estructura original de la aplicacion, pero ajusta los comandos externos para Windows.
+
+Cambios principales:
+
+- La conversion de audio/video usa `ffmpeg` desde el PATH de Windows.
+- La conversion de documentos usa LibreOffice directamente con `soffice.com` o `soffice`.
+- La conversion de imagenes usa ImageMagick 7 mediante `magick`.
+- Se evita usar `convert.exe` en Windows porque es una herramienta del sistema, no ImageMagick.
+- Las rutas de archivos se pasan a los procesos externos de forma mas segura para manejar espacios y tildes.
+- La salida de LibreOffice se decodifica usando la codificacion local de Windows cuando hace falta, para que los nombres con tildes se vean bien en los detalles de conversion.
+
+Para mantenimiento futuro:
+
+- Mantener `magick` en Windows, no `convert`.
+- Preferir `soffice.com` en Windows cuando este disponible, porque funciona mejor en consola.
+- Probar conversiones con nombres de archivo que tengan espacios y tildes.
+- Despues de cambiar codigo de comandos externos, probar al menos una imagen, un documento y un archivo de audio/video.
+
+
+## Licencia
+
+Este proyecto conserva la licencia original GPL. Vea [COPYING](COPYING).
