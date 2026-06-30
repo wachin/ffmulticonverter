@@ -1,0 +1,6 @@
+ffmulticonverter (1.8.0-1) unstable; urgency=medium
+
+  User configuration directory ( ~/.config/ffmulticonverter ) must be
+  deleted.
+
+ -- coolshou <coolshou2060@gmail.com> Fri, 01 Jul 2016 18:39:54 +0200
