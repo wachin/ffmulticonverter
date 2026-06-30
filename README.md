@@ -23,6 +23,27 @@ Windows document conversion:
 
 - LibreOffice, available as `soffice.com` or `soffice` in `PATH`
 
+## Run from source
+
+Linux:
+
+```sh
+python3 -m ffmulticonverter.ffmulticonverter
+```
+
+Windows:
+
+```powershell
+python -m pip install -r requirements.txt
+python -m ffmulticonverter.ffmulticonverter
+```
+
+## Debian packaging
+
+The `debian/` directory is intentionally Linux-focused. It depends on the Linux
+runtime tools used by the Debian package and does not install Windows binaries
+or Windows-specific dependencies.
+
 ## Platform notes
 
 On Linux, image conversion uses ImageMagick through `convert` when available,
@@ -304,26 +325,6 @@ presentations to `odp`, `pptx`, or `pdf`.
 | Create a slideshow file from a presentation            | `ppsx`     |
 | Extract simple text from a document                    | `txt`      |
 
-## Run from source
-
-Linux:
-
-```sh
-python3 -m ffmulticonverter.ffmulticonverter
-```
-
-Windows:
-
-```powershell
-python -m pip install -r requirements.txt
-python -m ffmulticonverter.ffmulticonverter
-```
-
-## Debian packaging
-
-The `debian/` directory is intentionally Linux-focused. It depends on the Linux
-runtime tools used by the Debian package and does not install Windows binaries
-or Windows-specific dependencies.
 
 ## License
 
