@@ -30,19 +30,22 @@ presets_old = '__OLD'
 #-----audiovideo data
 
 video_codecs = [
-        'copy', 'flv', 'h263', 'libvpx', 'libx264', 'libxvid', 'mpeg2video',
-        'mpeg4', 'msmpeg4', 'wmv2'
+        'copy', 'ffv1', 'flv', 'h263', 'libaom-av1', 'libsvtav1', 'libtheora',
+        'libvpx', 'libvpx-vp9', 'libx264', 'libx265', 'libxvid',
+        'mpeg2video', 'mpeg4', 'msmpeg4', 'prores', 'vp9', 'wmv2'
         ]
 
 audio_codecs = [
-        'aac', 'ac3', 'copy', 'libfaac', 'libmp3lame', 'libvo_aacenc',
-        'libvorbis', 'mp2', 'wmav2'
+        'aac', 'ac3', 'alac', 'copy', 'eac3', 'flac', 'libfdk_aac', 'libmp3lame',
+        'libopus', 'libvorbis', 'mp2', 'opus', 'pcm_s16le', 'wavpack', 'wmav2'
         ]
 
 video_formats = [
-        '3g2', '3gp', 'aac', 'ac3', 'avi', 'dv', 'flac', 'flv', 'm4a', 'm4v',
-        'mka', 'mkv', 'mov', 'mp3', 'mp4', 'mpg', 'ogg', 'vob', 'wav', 'webm',
-        'wma', 'wmv'
+        '3g2', '3gp', 'aac', 'ac3', 'aif', 'aiff', 'amr', 'ape', 'au', 'avi',
+        'caf', 'dv', 'eac3', 'flac', 'flv', 'gif', 'h264', 'h265', 'hevc',
+        'm2ts', 'm4a', 'm4b', 'm4r', 'm4v', 'mka', 'mkv', 'mov', 'mp2', 'mp3',
+        'mp4', 'mpg', 'mts', 'mxf', 'oga', 'ogg', 'ogv', 'opus', 'ts', 'vob',
+        'wav', 'webm', 'wma', 'wmv', 'wv'
         ]
 
 video_frequency_values = [
@@ -56,22 +59,26 @@ video_bitrate_values = [
 #-----image data
 
 image_formats = [
-        'bmp', 'cgm', 'dpx', 'emf', 'eps', 'fpx', 'gif', 'jbig', 'jng', 'jpeg',
-        'jpg', 'mrsid', 'p7', 'pdf', 'picon', 'png', 'ppm', 'psd', 'rad',
-        'tga', 'tif','webp', 'xpm'
+        'apng', 'avif', 'bmp', 'cgm', 'dds', 'dng', 'dpx', 'emf', 'eps', 'exr',
+        'fpx', 'gif', 'hdr', 'heic', 'heif', 'ico', 'j2k', 'jbig', 'jng',
+        'jp2', 'jpeg', 'jpg', 'jxl', 'mrsid', 'p7', 'pdf', 'picon', 'png',
+        'ppm', 'psd', 'rad', 'svg', 'tga', 'tif', 'tiff', 'webp', 'xpm'
         ]
 
 image_extra_formats = [
         'bmp2', 'bmp3', 'dib', 'epdf', 'epi', 'eps2', 'eps3', 'epsf', 'epsi',
-        'icon', 'jpe', 'pgm', 'png24', 'png32', 'pnm', 'ps', 'ps2',
-        'ps3', 'sid', 'tiff'
+        'icon', 'jpe', 'jpt', 'j2c', 'pgm', 'png24', 'png32', 'pnm', 'ps',
+        'ps2', 'ps3', 'sid'
         ]
 
 #-----document data
 
 document_formats = [
-        'bib', 'csv', 'dif', 'doc', 'docx', 'html', 'ltx', 'odp', 'ods', 'odt',
-        'pdf', 'ppt', 'pptx', 'rtf', 'sdc', 'sdw', 'txt', 'xls', 'xlsx', 'xml'
+        'bib', 'csv', 'dif', 'doc', 'docm', 'docx', 'dot', 'dotx', 'epub',
+        'fodp', 'fods', 'fodt', 'html', 'ltx', 'odp', 'ods', 'odt', 'otp',
+        'ots', 'ott', 'pdf', 'pot', 'potx', 'pps', 'ppsx', 'ppt', 'pptx',
+        'rtf', 'sdc', 'sdw', 'txt', 'xls', 'xlsm', 'xlsx', 'xlt', 'xltx',
+        'xhtml', 'xml'
         ]
 
 
