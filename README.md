@@ -46,7 +46,100 @@ python3 -m ffmulticonverter.ffmulticonverter
 
 ### Windows:
 
-Open PowerShell
+FF Multi Converter for Windows needs three external command-line tools
+available in `PATH`: FFmpeg, LibreOffice, and ImageMagick. After installing or
+changing `PATH`, close all PowerShell/CMD windows and open a new one before
+testing the commands.
+
+#### FFmpeg in PATH
+
+FFmpeg is required for audio and video conversion.
+
+Download a Windows build from the official FFmpeg Windows download page:
+[https://ffmpeg.org/download.html#build-windows](https://ffmpeg.org/download.html#build-windows).
+The guide in this repository uses the builds from
+[gyan.dev](https://www.gyan.dev/ffmpeg/builds/).
+
+Summary:
+
+1. Download and extract the FFmpeg build.
+2. Put the extracted files in a stable folder, for example `C:\FFmpeg`.
+3. Add the `bin` folder to the Windows user `Path`, for example:
+
+```text
+C:\FFmpeg\bin
+```
+
+4. Open a new PowerShell and verify:
+
+```powershell
+ffmpeg -version
+```
+
+Full Spanish guide: [docs/windows/ES/ffmpeg.md](docs/windows/ES/ffmpeg.md).
+
+#### LibreOffice in PATH
+
+LibreOffice is required for document conversion on Windows. FF Multi Converter
+uses `soffice`/`soffice.com` in headless mode to convert documents such as
+`.docx` to `.odt`, `.pdf`, and other office formats.
+
+Download LibreOffice from:
+[https://libreoffice.org/](https://libreoffice.org/).
+
+Summary:
+
+1. Install the LibreOffice version that matches your Windows architecture.
+2. Find the LibreOffice `program` folder. Usually it is:
+
+```text
+C:\Program Files\LibreOffice\program
+```
+
+3. Add that folder to the Windows user `Path`.
+4. Open a new PowerShell and verify:
+
+```powershell
+soffice --version
+```
+
+Full Spanish guide:
+[docs/windows/ES/libreoffice-path.md](docs/windows/ES/libreoffice-path.md).
+
+#### ImageMagick in PATH
+
+ImageMagick is required for image conversion. On Windows, FF Multi Converter
+uses `magick`, not `convert`, because Windows already includes an unrelated
+`convert.exe`.
+
+Download ImageMagick from:
+[https://imagemagick.org/download/#gsc.tab=0](https://imagemagick.org/download/#gsc.tab=0).
+
+Summary:
+
+1. Install ImageMagick 7 for Windows.
+2. In the installer, keep `Add application directory to your system path`
+   enabled.
+3. The legacy utilities are not required for FF Multi Converter.
+4. Open a new PowerShell and verify:
+
+```powershell
+magick --version
+```
+
+Full Spanish guide:
+[docs/windows/ES/imagemagick.md](docs/windows/ES/imagemagick.md).
+
+When all three tools are ready, these commands should work from a new
+PowerShell:
+
+```powershell
+ffmpeg -version
+soffice --version
+magick --version
+```
+
+Then install the Python dependency and run FF Multi Converter:
 
 ```powershell
 python -m pip install -r requirements.txt
