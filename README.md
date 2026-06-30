@@ -76,6 +76,7 @@ C:\FFmpeg\bin
 ffmpeg -version
 ```
 
+Full guide: [docs/windows/EN/ffmpeg.md](docs/windows/EN/ffmpeg.md)
 Full Spanish guide: [docs/windows/ES/ffmpeg.md](docs/windows/ES/ffmpeg.md).
 
 #### LibreOffice in PATH
@@ -103,8 +104,8 @@ C:\Program Files\LibreOffice\program
 soffice --version
 ```
 
-Full Spanish guide:
-[docs/windows/ES/libreoffice-path.md](docs/windows/ES/libreoffice-path.md).
+Full guide: [docs/windows/EN/libreoffice-path.md](docs/windows/EN/libreoffice-path.md)
+Full Spanish guide: [docs/windows/ES/libreoffice-path.md](docs/windows/ES/libreoffice-path.md).
 
 #### ImageMagick in PATH
 
@@ -127,8 +128,8 @@ Summary:
 magick --version
 ```
 
-Full Spanish guide:
-[docs/windows/ES/imagemagick.md](docs/windows/ES/imagemagick.md).
+Full guide: [docs/windows/EN/imagemagick.md](docs/windows/EN/imagemagick.md)
+Full Spanish guide: [docs/windows/ES/imagemagick.md](docs/windows/ES/imagemagick.md).
 
 When all three tools are ready, these commands should work from a new
 PowerShell:
