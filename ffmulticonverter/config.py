@@ -57,13 +57,13 @@ video_bitrate_values = [
 
 image_formats = [
         'bmp', 'cgm', 'dpx', 'emf', 'eps', 'fpx', 'gif', 'jbig', 'jng', 'jpeg',
-        'mrsid', 'p7', 'pdf', 'picon', 'png', 'ppm', 'psd', 'rad', 'tga',
-        'tif','webp', 'xpm'
+        'jpg', 'mrsid', 'p7', 'pdf', 'picon', 'png', 'ppm', 'psd', 'rad',
+        'tga', 'tif','webp', 'xpm'
         ]
 
 image_extra_formats = [
         'bmp2', 'bmp3', 'dib', 'epdf', 'epi', 'eps2', 'eps3', 'epsf', 'epsi',
-        'icon', 'jpe', 'jpg', 'pgm', 'png24', 'png32', 'pnm', 'ps', 'ps2',
+        'icon', 'jpe', 'pgm', 'png24', 'png32', 'pnm', 'ps', 'ps2',
         'ps3', 'sid', 'tiff'
         ]
 
